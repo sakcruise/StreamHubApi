@@ -39,6 +39,10 @@ src-main-scala
   - StartServer - Contains the main class to start the server at localhost:8080
   - UserReportActor - Actor class which receives messages as GetUniqueUsers(params)
   - UserReportRoutes - trait which contains the Routes details of the api
+
+test-scala
+- streamhub     - package
+  - UserReportRoutesSpec - TestFile
 ## Using IDE
 ```
 1. Build and Run the file StartServer - wait for message connected at localhost:8080
